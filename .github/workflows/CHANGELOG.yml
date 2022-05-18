@@ -26,5 +26,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: ${{ github.event.release.target_commitish }}
-          commit_message: Update CHANGELOG
+          commit_message: 🎆 Update CHANGELOG
           file_pattern: CHANGELOG.md
